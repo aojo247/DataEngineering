@@ -5,8 +5,14 @@ This repository contains a collection of data engineering projects built on AWS,
 
 ## Projects
 
-### Project 1: [Project Name]
-**Description:** [Brief description of the project]
+### Project 1: NBA Awards and Stats
+**Description:**
+These data sets were scraped from the NBA Reference site:
+- NBA Stats (1985 - 2022)
+- All NBA Most Valuable Player (MVP) Award Winners in the Modern Era
+- All NBA Defensive Player of the Year (DPOY) Award Winners in the Modern Era
+- All NBA Rookie of the Year (ROY) Award Winners in the Modern Era
+- All NBA All Stars in the Modern Era
 
 **AWS Services Used:**
 - AWS Lambda
@@ -24,7 +30,7 @@ This repository contains a collection of data engineering projects built on AWS,
 - Power BI
 
 **Setup and Deployment:**
-[Instructions for setting up and deploying this project. Include steps for environment setup, dependencies installation, and any configuration needed.]
+[More details about this deployment will be found in the AWS > NBA Directory]
 
 ## Future Projects
 This repository will be continuously updated with new projects, showcasing advanced data engineering techniques and integrations.

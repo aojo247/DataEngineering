@@ -17,6 +17,7 @@ These data sets were scraped from the NBA Reference site:
 **AWS Services Used:**
 - AWS Lambda
 - Amazon S3
+- Amazon RDS
 - [Other AWS Services used in this project]
 
 **Key Features:**
@@ -27,13 +28,15 @@ These data sets were scraped from the NBA Reference site:
 **Technologies:**
 - Python
 - SQL
-- Power BI
+- Power BI (????)
 
 **Setup and Deployment:**
 [More details about this deployment will be found in the AWS > NBA Directory]
 
 ## Future Projects
-This repository will be continuously updated with new projects, showcasing advanced data engineering techniques and integrations.
+This repository will be continuously updated with new projects, showcasing advanced data engineering techniques and integrations. 
+- AWS Cost And Usage Analysis with S3, EMR, PySpark (Alternative Setup with Glue for Athena Queries) 
+- Streaming Project / Project with AWS Glue, Data Pipeline
 
 
 ## Contact

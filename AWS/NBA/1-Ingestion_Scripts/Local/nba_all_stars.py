@@ -67,15 +67,15 @@ final_df = pd.concat(dataframes, ignore_index=True)
 # NOTE: You will need to uncomment one of the blocks of code below - depending on whether you wish to save to s3, or loacally.
 
 #for csv, specify your file path. The file will be saved as nba_stats.csv unless specified otherwise.
-#Example "C:\\Users\\bob\\Downloads\\nba_all_stars.csv"
+#Example "C:\\Users\\bob\\Downloads\\nba_all_star_list.csv"
 
 '''
-csv = save_to_csv(final_df, "<Local file path here >\\nba_all_stars.csv" )
+csv = save_to_csv(final_df, "<Local file path here >\\nba_all_star_list.csv" )
 '''
 
 
 #for S3, specify your bucket name, and profile if neccesary. The file will be saved as nba_stats.csv unless specified otherwise.
 '''
 #change profile name from default if neccesary
-s3 = save_to_s3_bucket(final_df, <s3_bucket_name here >, 'NBA/raw/nba_all_stars.csv', 'default')
+s3 = save_to_s3_bucket(final_df, <s3_bucket_name here >, 'NBA/raw/nba_all_star_list.csv', 'default')
 '''

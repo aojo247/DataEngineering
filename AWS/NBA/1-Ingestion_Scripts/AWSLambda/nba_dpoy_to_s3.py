@@ -9,7 +9,7 @@ import os
 def lambda_handler(event, context):
     # S3 Bucket Configuration
     s3_bucket_name = os.environ['S3_BUCKET_NAME']  # Set the S3 bucket name in Lambda's environment variables
-    s3_object_key = 'NBA/raw/NBA_dpoy_list.csv'  # Set the desired object key for the raw file (remember- you still need to run a cleaning script)
+    s3_object_key = 'NBA/raw/nba_dpoy_list.csv'  # Set the desired object key for the raw file (remember- you still need to run a cleaning script)
     
     # Create a list to store DataFrames
     dataframes = []
